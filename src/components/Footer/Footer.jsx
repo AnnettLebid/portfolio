@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
@@ -38,9 +39,15 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - Template developed by{' '}
-          <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
+          © {new Date().getFullYear()} - Developed by Anna Lebid <br />
+          Powered by {' '}
+          <a
+            target="_blank"
+            className="text-color-grey bg-color-dark-coco"
+            href="https://www.gatsbyjs.com"
+            rel="noreferrer"
+          >
+            Gatsby
           </a>
         </p>
 
