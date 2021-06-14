@@ -1,8 +1,9 @@
+/* eslint-disable prettier/prettier */
 import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Anna Lebid Portfolio', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -10,14 +11,14 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
+  name: 'Anna',
   subtitle: '',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'Anna.png',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -28,30 +29,48 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'lovethisplace-app.jpg',
+    title: 'LoveThisPlace App',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'lovethisplace.netlify.app/',
+    repo: 'https://github.com/AnnettLebid/lovethisplace-app', 
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'movie-app.jpg',
+    title: 'Movies App',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'annettlebid.github.io/movie-app/',
+    repo: 'https://github.com/AnnettLebid/movie-app', 
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'stock-exchange-project.jpg',
+    title: 'Stock Exchange data website',
+    info: '',
+    info2: '',
+    url: 'js-stock-exchange.herokuapp.com/',
+    repo: 'https://github.com/AnnettLebid/js-project-stock-exchange', 
+  },
+  {
+    id: nanoid(),
+    img: 'micro-blogging-app.jpg',
+    title: 'Microblogging Web App',
+    info: '',
+    info2: '',
+    url: 'my-project-735fe.web.app/',
+    repo: 'https://github.com/AnnettLebid/react-micro-blogging', 
+  },
+  {
+    id: nanoid(),
+    img: 'todo-app.jpg',
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://todo-app-anna-lebid.herokuapp.com/',
+    repo: 'https://github.com/AnnettLebid/react-planner-app', 
   },
 ];
 
