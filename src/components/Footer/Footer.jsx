@@ -1,9 +1,7 @@
-/* eslint-disable prettier/prettier */
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
@@ -22,13 +20,7 @@ const Footer = () => {
             networks.map((network) => {
               const { id, name, url } = network;
               return (
-                <a
-                  key={id}
-                  href={url}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  aria-label={name}
-                >
+                <a key={id} href={url} rel="noopener noreferrer" target="_blank" aria-label={name}>
                   <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
                 </a>
               );
@@ -37,7 +29,7 @@ const Footer = () => {
         <hr />
         <p className="footer__text">
           © {new Date().getFullYear()} - Developed by Anna Lebid <br />
-          Powered by {' '}
+          Powered by{' '}
           <a
             target="_blank"
             className="text-color-grey bg-color-dark-coco"

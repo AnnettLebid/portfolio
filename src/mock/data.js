@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import { nanoid } from 'nanoid';
 
 // HEAD DATA
