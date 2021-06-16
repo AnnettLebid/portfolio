@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Anna Lebid Portfolio', // e.g: 'Name | Developer'
+  title: 'Portfolio | Anna Lebid ',
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Anna',
-  subtitle: '',
+  subtitle: 'I am a Full Stack Developer',
   cta: '',
 };
 
@@ -30,46 +30,54 @@ export const projectsData = [
     id: nanoid(),
     img: 'lovethisplace-app.jpg',
     title: 'LoveThisPlace App',
-    info: '',
-    info2: '',
+    info: `LoveThisPlace App allows users to create a card
+    with an image and description of the place they love. It is possible to
+    create, delete, edit and like the place.`,
+    info2: `Built with React, Redux, Node.js and Material-UI.
+    Hosted by Heroku and Netlify.`,
     url: 'lovethisplace.netlify.app/',
-    repo: 'https://github.com/AnnettLebid/lovethisplace-app', 
+    repo: 'https://github.com/AnnettLebid/lovethisplace-app',
   },
   {
     id: nanoid(),
     img: 'movie-app.jpg',
     title: 'Movies App',
-    info: '',
-    info2: '',
+    info: `With Movies App a user can search movies and select favorite movies.`,
+    info2: `Built with React, Bootstrap and The Open Movie Database - OMDb API.
+    Hosted on Github Pages.`,
     url: 'annettlebid.github.io/movie-app/',
-    repo: 'https://github.com/AnnettLebid/movie-app', 
+    repo: 'https://github.com/AnnettLebid/movie-app',
   },
   {
     id: nanoid(),
     img: 'stock-exchange-project.jpg',
     title: 'Stock Exchange data website',
-    info: '',
-    info2: '',
+    info: `A multipage Stock Exchange data website. 
+    Users are able to search for a company, to see its real time stock price,
+    and company's profile. The company profile allow to have a good overview 
+    of any company details as well as a graph with historical company's price.`,
+    info2: `Built with HTML, CSS and vanilla Javascript. Hosted by Heroku.`,
     url: 'js-stock-exchange.herokuapp.com/',
-    repo: 'https://github.com/AnnettLebid/js-project-stock-exchange', 
+    repo: 'https://github.com/AnnettLebid/js-project-stock-exchange',
   },
   {
     id: nanoid(),
     img: 'micro-blogging-app.jpg',
     title: 'Microblogging Web App',
-    info: '',
-    info2: '',
+    info: `A fully functional micro blogging Web App. 
+    Created according to Figma design.`,
+    info2: `Built with React and hosted by Firebase.`,
     url: 'my-project-735fe.web.app/',
-    repo: 'https://github.com/AnnettLebid/react-micro-blogging', 
+    repo: 'https://github.com/AnnettLebid/react-micro-blogging',
   },
   {
     id: nanoid(),
     img: 'todo-app.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    title: 'To-do App',
+    info: `With this app user can create tasks, delete and prioritize them.`,
+    info2: `Built with React and React-Bootstrap, hosted by Heroku.`,
     url: 'https://todo-app-anna-lebid.herokuapp.com/',
-    repo: 'https://github.com/AnnettLebid/react-planner-app', 
+    repo: 'https://github.com/AnnettLebid/react-planner-app',
   },
 ];
 
@@ -95,4 +103,3 @@ export const footerData = {
     },
   ],
 };
-
