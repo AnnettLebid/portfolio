@@ -20,9 +20,11 @@ const Footer = () => {
             networks.map((network) => {
               const { id, name, url } = network;
               return (
-                <a key={id} href={url} rel="noopener noreferrer" target="_blank" aria-label={name}>
-                  <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
-                </a>
+                <div key={id} className="social-link-container">
+                  <a href={url} rel="noopener noreferrer" target="_blank" aria-label={name}>
+                    <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                  </a>
+                </div>
               );
             })}
         </div>
