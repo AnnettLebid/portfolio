@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 
 h1 {
   font-weight: 700;
@@ -36,6 +38,11 @@ a:hover {
 
 .dark-blue-text {
   color: $dark-blue-text !important;
+}
+
+.hero-name-font {
+  font-family: 'Kaushan Script', cursive;  
+  font-size: 8rem;
 }
 
 .text-color-main {
