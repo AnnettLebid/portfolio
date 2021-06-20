@@ -53,10 +53,12 @@ export const projectsData = [
     img: 'stock-exchange-project.jpg',
     title: 'Stock Exchange data website',
     info: `A multipage Stock Exchange data website. 
-    Users are able to search for a company, to see its real time stock price,
-    and company's profile. The company profile allow to have a good overview 
+    Users are able to search NASDAQ stock exchange companies by symbol, 
+    see the real time stock price and more detailed company profile. 
+    The company profile allow to have a good overview 
     of any company details as well as a graph with historical company's price.`,
-    info2: `Built with HTML, CSS and vanilla Javascript. Hosted by Heroku.`,
+    info2: `This is a vanilla JavaScript project that makes use of Object Oriented Programming by way of JavaScript classes. 
+    Hosted by Heroku.`,
     url: 'js-stock-exchange.herokuapp.com/',
     repo: 'https://github.com/AnnettLebid/js-project-stock-exchange',
   },
