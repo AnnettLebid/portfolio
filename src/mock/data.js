@@ -18,10 +18,17 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'Anna.png',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: `After years as an Electromechanical Engineer
+  I discovered my passion for programming.
+  I love to make things that make a difference 
+  and I believe that new technologies can help us 
+  create a better world.`,
+  paragraphTwo: `Thanks to my engineering background I
+  am putting great attention to details and 
+  I am used to working with different development teams.`,
+  paragraphThree: `I love to learn and code. I like good design 
+  and I want to build good user experience.`,
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
