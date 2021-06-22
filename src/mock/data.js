@@ -42,7 +42,7 @@ export const projectsData = [
     create, delete, edit and like the place.`,
     info2: `Built with React, Redux, Node.js and Material-UI.
     Hosted by Heroku and Netlify.`,
-    url: 'lovethisplace.netlify.app/',
+    url: 'https://lovethisplace.netlify.app/',
     repo: 'https://github.com/AnnettLebid/lovethisplace-app',
   },
   {
@@ -52,7 +52,7 @@ export const projectsData = [
     info: `With Movies App a user can search movies and select favorite movies.`,
     info2: `Built with React, Bootstrap and The Open Movie Database - OMDb API.
     Hosted on Github Pages.`,
-    url: 'annettlebid.github.io/movie-app/',
+    url: 'https://annettlebid.github.io/movie-app/',
     repo: 'https://github.com/AnnettLebid/movie-app',
   },
   {
@@ -66,7 +66,7 @@ export const projectsData = [
     of any company details as well as a graph with historical company's price.`,
     info2: `This is a vanilla JavaScript project that makes use of Object Oriented Programming by way of JavaScript classes. 
     Hosted by Heroku.`,
-    url: 'js-stock-exchange.herokuapp.com/',
+    url: 'https://js-stock-exchange.herokuapp.com/',
     repo: 'https://github.com/AnnettLebid/js-project-stock-exchange',
   },
   {
@@ -76,7 +76,7 @@ export const projectsData = [
     info: `A fully functional micro blogging Web App. 
     Created according to Figma design.`,
     info2: `Built with React and hosted by Firebase.`,
-    url: 'my-project-735fe.web.app/',
+    url: 'https://my-project-735fe.web.app/',
     repo: 'https://github.com/AnnettLebid/react-micro-blogging',
   },
   {
