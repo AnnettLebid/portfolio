@@ -23,7 +23,7 @@ export const aboutData = {
   I love to make things that make a difference 
   and I believe that new technologies can help us 
   create a better world.`,
-  paragraphTwo: `Thanks to my engineering background I
+  paragraphTwo: `With my engineering background I
   am putting great attention to details and 
   I am used to working with different development teams.`,
   paragraphThree: `I love to learn and code. I like good design 

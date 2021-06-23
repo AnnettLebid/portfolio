@@ -1,5 +1,5 @@
 module.exports = {
-  siteMetaData: {
+  siteMetadata: {
     title: 'Anna Lebid Portfolio',
     description: 'Anna Lebid Portfolio Web Site',
   },
