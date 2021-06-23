@@ -1,4 +1,8 @@
 module.exports = {
+  siteMetaData: {
+    title: 'Anna Lebid Portfolio',
+    description: 'Anna Lebid Portfolio Web Site',
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
