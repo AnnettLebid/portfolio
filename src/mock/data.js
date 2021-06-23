@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'Anna.png',
+  img: 'Anna-img.jpg',
   paragraphOne: `After years as an Electromechanical Engineer
   I discovered my passion for programming.
   I love to make things that make a difference 
